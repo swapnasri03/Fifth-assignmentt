@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Interactive Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>My Basic Web Demo</h1>
+
+        <section id="color-box">
+            <h2>Fun Color Button</h2>
+            <button id="color-btn">Click Me!</button>
+        </section>
+        
+        <hr>
+
+        <section>
+            <h2>Quick Check Form</h2>
+            <form id="check-form">
+                <label for="input-data">Your Name (Required):</label>
+                <input type="text" id="input-data" required>
+                <span id="error-msg" class="message"></span>
+                
+                <button type="submit">Submit</button>
+            </form>
+            <p id="final-result" class="message"></p>
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
